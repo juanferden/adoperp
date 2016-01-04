@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="publish" version="2.5" method="upgrade">
+<name>Google page</name>
+<type>Google</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>January 2014</creationDate>
+<description>Send to google page</description>
+<languages>
+		<language tag="en-GB">language/en-GB.googlepage.ini</language>		
+</languages>
+<config>
+<fields name="params">
+	<fieldset name="basic">		
+		<field name="mail" type="text" size="40" label="PUBLISHED_EMAIL" description="PUBLISHED_EMAIL_DESC" default="" />		
+		<field name="pass" type="password" size="40" label="PUBLISHED_PASS" description="PUBLISHED_PASS_DESC" default="" />		
+		<field name="googleid" type="text" size="40" label="PUBLISHED_GOOGLEID" description="PUBLISHED_GOOGLEID_DESC" default="" />		
+	</fieldset>	
+</fields>
+</config>
+</extension>

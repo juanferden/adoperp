@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="publish" version="2.5" method="upgrade">
+<name>Linkedin Companies</name>
+<type>Linkedin Companies</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description>Get all your Linked-in Companies and only use with administrator of comany</description>
+<languages>
+		<language tag="en-GB">language/en-GB.linkedincompanies.ini</language>		
+</languages>
+<config>
+<fields name="params">
+	<fieldset name="basic" addfieldpath="/administrator/components/com_bt_socialconnect/publishes/linkedincompanies/elements">		
+		<field name="groupid" type="linkconnect" label="PUBLISHED_LINKEDIN_COMPANIES" description="PUBLISHED_LINKEDIN_COMPANIES_DESC" default="" />		
+		<field name="uid"	type="hidden" 	default=""/>
+		<field name="uname"	type="hidden" 	default=""/>
+		<field name="uimage"	type="hidden" 	default=""/>
+		<field name="app_appid"	type="hidden" 	default=""/>
+		<field name="access_token"	type="hidden" 	default="" />
+		<field name ="ajax" type="ajax"/>
+	</fieldset>	
+</fields>
+</config>
+</extension>

@@ -1,0 +1,1 @@
+<?php die("Access Denied"); ?>#x#s:228:"plugins/system/t3/base/bootstrap/less/variables.less|plugins/system/t3/base/less/variables.less|templates/bt_education/less/variables.less|plugins/system/t3/base/bootstrap/less/mixins.less|plugins/system/t3/base/less/mixins.less";

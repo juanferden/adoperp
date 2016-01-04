@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="publish" version="2.5" method="upgrade">
+<name>Mailing</name>
+<type>Email</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>January 2014</creationDate>
+<description>Send notification to specific emails when an action occurs</description>
+<languages>
+		<language tag="en-GB">language/en-GB.mailing.ini</language>		
+</languages>
+<config>
+<fields name="params">
+	<fieldset name="basic">		
+		<field name="mail" type="text" size="40" label="PUBLISHED_EMAIL" description="PUBLISHED_EMAIL_DESC" default="" />		
+	</fieldset>	
+</fields>
+</config>
+</extension>

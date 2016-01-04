@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension type="publish" version="2.5" method="upgrade">
+<name>Twitter Profile</name>
+<type>Twitter profile</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description>Get your twitter profile</description>
+	<languages>
+		<language tag="en-GB">language/en-GB.twitterprofile.ini</language>		
+	</languages>
+<config>
+<fields name="params">
+	<fieldset name="basic" addfieldpath="/administrator/components/com_bt_socialconnect/publishes/twitterprofile/elements">		
+		<field name="groupid" type="twitterconnect" label="PUBLISHED_TWITTER_PROFILE" description="PUBLISHED_TWITTER_PROFILE_DESC" default="" />		
+		<field name="uid"	type="hidden" 	default=""/>
+		<field name="uname"	type="hidden" 	default=""/>
+		<field name="app_appid"	type="hidden" 	default=""/>
+		<field name="app_secret" type="hidden" 	default=""/>
+		<field name="access_token"	type="hidden" 	default="" />		
+	</fieldset>	
+</fields>
+</config>
+</extension>

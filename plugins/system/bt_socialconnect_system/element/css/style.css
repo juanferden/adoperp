@@ -1,0 +1,26 @@
+.social_btlogin {   
+	width:100%;
+	overflow: hidden;
+	text-align:center;
+}
+.btnsc{
+	border-radius: 3px!important;
+    height: 30px!important;
+	width: 85px;
+	display:inline-block;
+	margin: 5px;
+	background:url(../images/social-icon-full.png) top left no-repeat!important;
+	text-indent:-999px;
+}
+.btn-fb{
+	background-position: 0 0!important;
+}
+.btn-tt{
+	background-position: 0 -30px!important;
+}
+.btn-gg{
+	background-position: 0 -60px!important;
+}
+.btn-in{
+	background-position: 0 -90px!important;
+}

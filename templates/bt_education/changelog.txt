@@ -1,0 +1,8 @@
+1, sửa lỗi date/time khi chuyển sang language khác hay multi language site ở module BT Contentshowcase, layout default $row->date thành $row->created
+2, fix lỗi ko reposition ảnh cover ở profile, group, event:
+- fix lỗi ko drag đc
+- fix lỗi drag đc rồi, nhưng refesh nó lại mất
+- solution: sửa ở file: profile, group, event, đổi ảnh cover từ background thành image, add css style thêm ở custom.css
+
+3, update joomsocial from 3.2.0.5 to 3.2.1.1
+4, update joomla 2.5.19 -> 2.5.22

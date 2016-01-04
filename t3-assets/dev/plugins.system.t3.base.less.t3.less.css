@@ -1,0 +1,10 @@
+.logo-control .logo-img-sm {
+  display: none;
+}
+.logo-control .logo-img {
+  display: block;
+}
+.body-data-holder:before {
+  display: none;
+  content: "grid-float-breakpoint:767px screen-xs:600px screen-sm:760px screen-md:976px screen-lg:1170px";
+}
